@@ -1,3 +1,4 @@
 fn main() {
-    println!("Hello, bors!");
+    let num = rand::random::<u32>();
+    println!("Hello, bors:{num}");
 }
